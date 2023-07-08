@@ -140,3 +140,28 @@ body {
 .footer .social-links img:hover {
     opacity: 0.7;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  
+  .navbar-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .nav-button {
+    margin: 5px;
+  }
+  
+  .background-div {
+    display: none;
+  }
+  
+  
+}
