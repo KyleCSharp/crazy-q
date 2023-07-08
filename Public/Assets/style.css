@@ -20,8 +20,9 @@ body {
 .logo {
     width: 55px;
     height: 55px;
-    padding-left: 20px;
-    border-radius: 0%;
+    margin-left: 20px;
+    border-radius: 30%;
+  
 }
 
 .navbar-left {
