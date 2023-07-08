@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #c84042;
     scroll-behavior: smooth;
+    text-align: center;
 } 
 
 .navbar {
@@ -114,7 +115,18 @@ body {
 .location-div p {
     margin: 0;
 }
-
+.comics-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+  }
+  
+  .comics-div img {
+    width: 100%;
+    height: auto;
+    padding:20px;
+  }
 .footer {
     background-color: #c84042;
     padding: 20px;
@@ -162,6 +174,9 @@ body {
   .background-div {
     display: none;
   }
-  
+  .comics-div {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
   
 }
