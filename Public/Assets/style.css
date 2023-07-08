@@ -4,6 +4,7 @@ body {
     background-color: #c84042;
     scroll-behavior: smooth;
     text-align: center;
+    overflow-x: hidden;
 } 
 
 .navbar {
