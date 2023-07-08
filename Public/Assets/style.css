@@ -96,6 +96,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 5px;
+    
 }
 
 .location-div h1 {
@@ -217,7 +219,9 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  
+  .background-div img:nth-child(2) {
+    display: block; /* Display the second image */
+  }
     .navbar {
     flex-direction: column;
     height: auto;
