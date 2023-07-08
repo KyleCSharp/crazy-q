@@ -5,7 +5,8 @@ body {
     scroll-behavior: smooth;
     text-align: center;
     overflow-x: hidden;
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "Chalkduster", "Arial", sans-serif;
+
 } 
 
 .navbar {
