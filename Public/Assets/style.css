@@ -121,12 +121,14 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
     justify-items: center;
+    
   }
   
   .comics-div img {
     width: 100%;
     height: auto;
     padding:20px;
+    
   }
 .footer {
     background-color: #c84042;
@@ -154,11 +156,13 @@ body {
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
+@media only screen and (max-width: 1000px) {
+  
+    .navbar {
     flex-direction: column;
     height: auto;
     align-items: center;
+   
   }
   
   .navbar-buttons {
@@ -166,19 +170,22 @@ body {
     justify-content: center;
     margin-top: 10px;
     display: flex;
+   
   }
   
   .nav-button {
     margin: 5px;
+    
   }
   
   .comics-div {
     flex-wrap: wrap;
     padding: 20px;
+    
   }
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     
   
     .background-div {
@@ -203,9 +210,9 @@ body {
     }
   
     .centered-image img {
-      max-width: 80%;
-      max-height: 80%;
-      border-radius: 100%;
-    }
+        max-height: 100vh; /* Set a max height to maintain aspect ratio */
+        border-radius: 100%;
+      }
+    
   }
   
