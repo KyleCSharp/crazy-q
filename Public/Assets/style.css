@@ -130,8 +130,8 @@ body {
   }
   
   .comics-div img {
-    width: 100%;
-    height: auto;
+    width: 800px;
+    height: 800px;
     padding:20px;
     
   }
@@ -275,6 +275,11 @@ body {
         max-height: 100vh; /* Set a max height to maintain aspect ratio */
         border-radius: 100%;
       }
-    
+      .comics-div img {
+        width: auto;
+        height: 400px;
+        padding:20px;
+        
+      }
   }
   
