@@ -135,7 +135,20 @@ body {
     padding:20px;
     
   }
- 
+  .comics-div a {
+    display: inline-block;
+    width: 200px; /* Fixed width for the thumbnails */
+    height: 200px;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the width */
+    border-right: 10px solid black; /* Add a vertical line between the links */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+  }
+
+  .comics-div a:last-child {
+    border-right: none; /* Remove border from the last link */
+  }
   .arrow {
     position: absolute;
     top: 50%;
