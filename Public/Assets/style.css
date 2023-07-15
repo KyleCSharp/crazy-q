@@ -90,7 +90,7 @@ body {
 
 .location-div {
     background-color: white;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +121,17 @@ body {
 .location-div p {
     margin: 0;
 }
+.open-sign {
+  color: green;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.closed-sign {
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+}
 .comics-div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -135,20 +146,7 @@ body {
     padding:20px;
     
   }
-  .comics-div a {
-    display: inline-block;
-    width: 200px; /* Fixed width for the thumbnails */
-    height: 200px;
-    padding: 10px; /* Adjust padding as needed */
-    box-sizing: border-box; /* Include padding in the width */
-    border-right: 10px solid black; /* Add a vertical line between the links */
-    text-decoration: none; /* Remove underline from links */
-    color: black; /* Set link color */
-  }
-
-  .comics-div a:last-child {
-    border-right: none; /* Remove border from the last link */
-  }
+ 
   .arrow {
     position: absolute;
     top: 50%;
