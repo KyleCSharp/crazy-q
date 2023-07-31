@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  
+}
 body {
     margin: 0;
     padding: 0;
@@ -90,7 +94,7 @@ body {
 
 .location-div {
     background-color: white;
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +124,21 @@ body {
 
 .location-div p {
     margin: 0;
+}
+
+.map iframe {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 200px;
+  border: 0; /* Removes the border around the iframe */
+
+ /* Adjust the map size for phones */
+ @media (max-width: 767px) {
+  width: 100%; /* Full width for phones */
+  height: auto; /* Height will adjust automatically based on aspect ratio */
+}
 }
 .open-sign {
   color: green;
