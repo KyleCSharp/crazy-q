@@ -261,7 +261,14 @@ body {
 }
 @media only screen and (max-width: 1200px) {
     
+  .logo {
+    width: 55px;
+    height: 55px;
+    margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 30%;
   
+}
     .background-div {
       display: block;
       height: 380px; /* Adjust the height as needed */
